@@ -1,4 +1,4 @@
-# metalsmith-sitemap
+# metalsmith-mapsite
 
 [![npm](https://img.shields.io/npm/v/metalsmith-mapsite.svg)](https://www.npmjs.com/package/metalsmith-mapsite) [![Build Status](https://travis-ci.org/superwolff/metalsmith-mapsite.svg)](https://travis-ci.org/superwolff/metalsmith-mapsite) [![Dependency Status](https://david-dm.org/superwolff/metalsmith-mapsite.svg)](https://david-dm.org/superwolff/metalsmith-mapsite) [![devDependency Status](https://david-dm.org/superwolff/metalsmith-mapsite/dev-status.svg)](https://david-dm.org/superwolff/metalsmith-mapsite#info=devDependencies) [![npm](https://img.shields.io/npm/dm/metalsmith-mapsite.svg)](https://www.npmjs.com/package/metalsmith-mapsite)
 
@@ -9,7 +9,7 @@ This plugin allows you to generate a [sitemap.xml](http://www.sitemaps.org/proto
 ## Installation
 
 ```bash
-$ npm install metalsmith-sitemap
+$ npm install metalsmith-mapsite
 ```
 
 ## Example
@@ -19,7 +19,7 @@ Configuration in `metalsmith.json`:
 ```json
 {
   "plugins": {
-    "metalsmith-sitemap": {
+    "metalsmith-mapsite": {
       "hostname": "http://www.website.com"
     }
   }
@@ -28,7 +28,7 @@ Configuration in `metalsmith.json`:
 
 ## Options
 
-You can pass options to `metalsmith-sitemap` with the [Javascript API](https://github.com/segmentio/metalsmith#api) or [CLI](https://github.com/segmentio/metalsmith#cli). The options are:
+You can pass options to `metalsmith-mapsite` with the [Javascript API](https://github.com/segmentio/metalsmith#api) or [CLI](https://github.com/segmentio/metalsmith#cli). The options are:
 
 ##### hostname
 
