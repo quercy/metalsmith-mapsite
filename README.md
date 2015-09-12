@@ -1,5 +1,7 @@
 # metalsmith-sitemap
 
+[![npm](https://img.shields.io/npm/v/metalsmith-mapsite.svg)](https://www.npmjs.com/package/metalsmith-mapsite) [![Build Status](https://travis-ci.org/superwolff/metalsmith-mapsite.svg)](https://travis-ci.org/superwolff/metalsmith-mapsite) [![Dependency Status](https://david-dm.org/superwolff/metalsmith-mapsite.svg)](https://david-dm.org/superwolff/metalsmith-mapsite) [![devDependency Status](https://david-dm.org/superwolff/metalsmith-mapsite/dev-status.svg)](https://david-dm.org/superwolff/metalsmith-mapsite#info=devDependencies) [![npm](https://img.shields.io/npm/dm/metalsmith-mapsite.svg)](https://www.npmjs.com/package/metalsmith-mapsite)
+
 > A metalsmith plugin for generating a sitemap
 
 This plugin allows you to generate a [sitemap.xml](http://www.sitemaps.org/protocol.html) from your source files. By default it looks for any `.html` files and processes them with [sitemap.js](https://github.com/ekalinin/sitemap.js).
