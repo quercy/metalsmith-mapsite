@@ -4,7 +4,7 @@
 
 > A metalsmith plugin for generating a sitemap
 
-This plugin allows you to generate a [sitemap.xml](http://www.sitemaps.org/protocol.html) from your source files. By default it looks for any `.html` files and processes them with [sitemap.js](https://github.com/ekalinin/sitemap.js).
+This plugin allows you to generate a [sitemap.xml](http://www.sitemaps.org/protocol.html) from your source files. By default it looks for any `.html` files and processes them with [sitemap.js](https://github.com/ekalinin/sitemap.js). This plugin is a fork of [metalsmith-sitemap](https://github.com/ExtraHop/metalsmith-sitemap), the main difference being that I want to keep this plugin as simple as possible.
 
 ## Installation
 
@@ -106,6 +106,12 @@ private: true
 ---
 <!-- index.html -->
 ```
+
+## Origins
+
+Metalsmith-mapsite is a fork of metalsmith-sitemap. After [refactoring metalsmith-sitemap](https://github.com/ExtraHop/metalsmith-sitemap/pull/12) I decided I would like to keep the plugin [as simple as possible](http://davidwalsh.name/designing-simplicity), to minimize possible points of failure and because it already does a lot.
+
+This conflicted with the maintainer's goals, which is why I forked the plugin to metalsmith-mapsite. Mainly just for personal use, but maybe it'll be of use for others as well!
 
 ## License
 
