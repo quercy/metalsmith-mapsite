@@ -12,7 +12,7 @@ This plugin allows you to generate a [sitemap.xml](http://www.sitemaps.org/proto
 $ npm install metalsmith-mapsite
 ```
 
-## Example
+## CLI Usage
 
 Configuration in `metalsmith.json`:
 
@@ -26,6 +26,13 @@ Configuration in `metalsmith.json`:
 }
 ```
 
+## JavaScript Usage
+
+```javascript
+var sitemap = require('metalsmith-mapsite');
+
+metalsmith.use(sitemap('http://www.website.com'));
+```
 ## Options
 
 You can pass options to `metalsmith-mapsite` with the [Javascript API](https://github.com/segmentio/metalsmith#api) or [CLI](https://github.com/segmentio/metalsmith#cli). The options are:
