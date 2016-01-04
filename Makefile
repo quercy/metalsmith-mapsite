@@ -1,4 +1,4 @@
-mocha=node_modules/.bin/mocha --reporter spec --harmony-generators
+mocha=node_modules/.bin/mocha --reporter spec
 
 node_modules: package.json
 	@npm install
