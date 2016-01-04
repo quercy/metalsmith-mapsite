@@ -31,7 +31,11 @@ Configuration in `metalsmith.json`:
 ```javascript
 var sitemap = require('metalsmith-mapsite');
 
-metalsmith.use(sitemap('http://www.website.com'));
+metalsmith(__dirname)
+  .use(sitemap('http://www.website.com'))
+  .build(function(err){
+    if (err) throw err;
+  });
 ```
 ## Options
 
