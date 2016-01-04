@@ -1,3 +1,7 @@
+1.0.4 - January 4, 2016
+-----------------------
+* update readme and tests
+
 1.0.3 - October 17, 2015
 ------------------------
 * convert windows file path backslashes to slash
