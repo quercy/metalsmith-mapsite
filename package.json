@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/superwolff/metalsmith-mapsite.git"
+    "url": "https://github.com/quercy/metalsmith-mapsite.git"
   },
   "keywords": [
     "metalsmith",
     "sitemap"
   ],
-  "author": "superwolff <superwolff@superwolff.nl> (http://superwolff.nl/)",
+  "author": "quercy <reid.savage@gmail.com> (https://quercy.co)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/superwolff/metalsmith-mapsite/issues"
+    "url": "https://github.com/quercy/metalsmith-mapsite/issues"
   },
-  "homepage": "https://github.com/superwolff/metalsmith-mapsite",
+  "homepage": "https://github.com/quercy/metalsmith-mapsite",
   "dependencies": {
     "is": "^3.0.1",
     "lodash.identity": "^3.0.0",
