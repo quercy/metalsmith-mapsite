@@ -1,6 +1,6 @@
 # metalsmith-mapsite
 
-[![npm](https://img.shields.io/npm/v/metalsmith-mapsite.svg)](https://www.npmjs.com/package/metalsmith-mapsite) [![Build Status](https://travis-ci.org/superwolff/metalsmith-mapsite.svg)](https://travis-ci.org/superwolff/metalsmith-mapsite) [![Dependency Status](https://david-dm.org/superwolff/metalsmith-mapsite.svg)](https://david-dm.org/superwolff/metalsmith-mapsite) [![devDependency Status](https://david-dm.org/superwolff/metalsmith-mapsite/dev-status.svg)](https://david-dm.org/superwolff/metalsmith-mapsite#info=devDependencies) [![npm](https://img.shields.io/npm/dm/metalsmith-mapsite.svg)](https://www.npmjs.com/package/metalsmith-mapsite)
+[![npm](https://img.shields.io/npm/v/metalsmith-mapsite.svg)](https://www.npmjs.com/package/metalsmith-mapsite) [![Build Status](https://travis-ci.org/quercy/metalsmith-mapsite.svg)](https://travis-ci.org/quercy/metalsmith-mapsite) [![Dependency Status](https://david-dm.org/quercy/metalsmith-mapsite.svg)](https://david-dm.org/quercy/metalsmith-mapsite) [![devDependency Status](https://david-dm.org/quercy/metalsmith-mapsite/dev-status.svg)](https://david-dm.org/quercy/metalsmith-mapsite#info=devDependencies) [![npm](https://img.shields.io/npm/dm/metalsmith-mapsite.svg)](https://www.npmjs.com/package/metalsmith-mapsite)
 
 > A metalsmith plugin for generating a sitemap
 

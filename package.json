@@ -23,11 +23,11 @@
   "dependencies": {
     "is": "^3.0.1",
     "lodash.identity": "^3.0.0",
-    "lodash.pick": "^3.1.0",
+    "lodash.pick": "^4.4.0",
     "multimatch": "^2.0.0",
     "sitemap": "^1.4.0",
     "slash": "^1.0.0",
-    "string": "^3.3.1"
+    "string": "^3.3.3"
   },
   "devDependencies": {
     "assert-dir-equal": "^1.0.1",
