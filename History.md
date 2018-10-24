@@ -1,3 +1,7 @@
+1.0.6 - October 23, 2018
+-----------------------
+* update dependencies, remove dependency on strings pkg
+
 1.0.5 - October 23, 2018
 -----------------------
 * fix broken tests, update nvmrc, bugfixes
