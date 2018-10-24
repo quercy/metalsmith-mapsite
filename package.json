@@ -22,10 +22,10 @@
   "homepage": "https://github.com/quercy/metalsmith-mapsite",
   "dependencies": {
     "is": "^3.0.1",
-    "lodash.identity": "^3.0.0",
-    "lodash.pick": "^4.4.0",
+    "lodash.isundefined": "^3.0.1",
+    "lodash.pickby": "^4.6.0",
     "multimatch": "^2.0.0",
-    "sitemap": "^1.4.0",
+    "sitemap": "^2.1.0",
     "slash": "^1.0.0",
     "string": "^3.3.3"
   },
