@@ -26,12 +26,11 @@
     "lodash.pickby": "^4.6.0",
     "multimatch": "^2.0.0",
     "sitemap": "^2.1.0",
-    "slash": "^1.0.0",
-    "string": "^3.3.3"
+    "slash": "^2.0.0"
   },
   "devDependencies": {
     "assert-dir-equal": "^1.0.1",
     "metalsmith": "^2.0.1",
-    "mocha": "^2.2.5"
+    "mocha": "^5.2.0"
   }
 }
