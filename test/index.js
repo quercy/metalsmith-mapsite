@@ -33,7 +33,7 @@ describe('metalsmith-sitemap', function(){
       .use(sitemap({
         hostname: 'http://www.website.com/',
         changefreq: 'never',
-        priority: '0.0'
+        priority: 0.0
       }))
       .build(function(err){
         if (err) {
