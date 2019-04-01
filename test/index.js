@@ -147,6 +147,21 @@ describe('metalsmith-sitemap', function(){
         done();
       });
   });
+  
+  it('should include XSL file if passed in options', function(done){
+    Metalsmith('test/fixtures/xsl')
+      .use(sitemap({
+        hostname: 'http://www.website.com/',
+        xslUrl: 'style.xsl'
+      }))
+      .build(function(err){
+        if (err) {
+          return done(err);
+        }
+        equal('test/fixtures/xsl/expected', 'test/fixtures/xsl/build');
+        done();
+      });
+  });
 
   it('should ignore files marked as private', function(done){
     Metalsmith('test/fixtures/private')
