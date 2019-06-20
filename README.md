@@ -95,6 +95,20 @@ Will remove extensions from the urls in the sitemap. Useful when you're rewritin
 
 Will replace any paths ending in `index.html` with `''`. Useful when you're using [metalsmith-permalinks](https://github.com/segmentio/metalsmith-permalinks).
 
+##### xslUrl
+
+* `optional`
+* `default: ''`
+
+Will add a link to the xsl file specified.
+
+##### frontmatterIgnore
+
+* `optional`
+* `default: 'private'`
+
+Will exclude files with this frontmatter property set to true.
+
 ## Frontmatter
 
 Some values can also be set on a file-to-file basis from a file's frontmatter, the options are:
@@ -103,7 +117,7 @@ Some values can also be set on a file-to-file basis from a file's frontmatter, t
 * `changefreq`: will override any other settings for `changefreq` for the current file.
 * `lastmod`: will override any other settings for `lastmod` for the current file.
 * `priority`: will override any other settings for `priority` for the current file.
-* `private`: will exclude the file from the sitemap when set to true.
+* `private`: by default will exclude the file from the sitemap when set to true, but can be overrided with the `frontmatterIgnore` option.
 
 For example:
 
