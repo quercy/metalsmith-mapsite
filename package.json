@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/quercy/metalsmith-mapsite",
   "dependencies": {
+    "debug": "^4.1.1",
     "is": "^3.0.1",
     "lodash.isundefined": "^3.0.1",
     "lodash.pickby": "^4.6.0",

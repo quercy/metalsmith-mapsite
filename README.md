@@ -95,6 +95,13 @@ Will remove extensions from the urls in the sitemap. Useful when you're rewritin
 
 Will replace any paths ending in `index.html` with `''`. Useful when you're using [metalsmith-permalinks](https://github.com/segmentio/metalsmith-permalinks).
 
+##### verbose
+
+* `optional`
+* `default: false`
+
+Will output all entries to console.
+
 ## Frontmatter
 
 Some values can also be set on a file-to-file basis from a file's frontmatter, the options are:
@@ -104,6 +111,7 @@ Some values can also be set on a file-to-file basis from a file's frontmatter, t
 * `lastmod`: will override any other settings for `lastmod` for the current file.
 * `priority`: will override any other settings for `priority` for the current file.
 * `private`: will exclude the file from the sitemap when set to true.
+* `sitemap`: include arbitrary structure in sitemap. See [sitemap package](https://github.com/ekalinin/sitemap.js#readme) for examples
 
 For example:
 
@@ -114,6 +122,18 @@ changefreq: always
 lastmod: 2014-12-01
 priority: 1.0
 private: true
+sitemap:
+  img:
+    - url: https://resources.example.com/images/image1.png
+      caption: Image 1 Caption
+      title: Image 1 Title
+      geo_location: Australia
+      license: https://creativecommons.org/licenses/by/4.0/
+    - url: https://resources.example.com/images/image2.png
+      caption: Image 2 Caption
+      title: Image 2 Title
+      geo_location: Australia
+      license: https://creativecommons.org/licenses/by/4.0/
 ---
 <!-- index.html -->
 ```
